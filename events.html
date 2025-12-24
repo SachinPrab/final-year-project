@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events - Event Site</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <!-- Header with Navigation - Common to all pages -->
+   <header class="header">
+  <div class="nav-container">
+    
+    <div class="logo">
+      <img src="assets/college_logo.jpg" alt="Logo" />
+    </div>
+
+    <!-- Hamburger Button -->
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+  </div>
+</header>
+
+
+    <!-- Hero Banner - Events specific -->
+    <section class="hero">
+        <div>
+            <h1>Upcoming Events</h1>
+            <p>Join our exciting calendar of events</p>
+        </div>
+    </section>
+
+    <!-- Main Content - Events Grid -->
+    <main class="container">
+        <section class="section">
+            <h2>Event Schedule</h2>
+            <div class="cards-grid">
+                <!-- Event Card 1 -->
+                <div class="card">
+                    <img src="assets/event1.jpg" alt="Music Festival">
+                    <div class="card-content">
+                        <h3>Music Festival 2025</h3>
+                        <p><strong>Date:</strong> Dec 20, 2025</p>
+                        <p>Live performances from top South Indian artists</p>
+                    </div>
+                </div>
+                
+                <!-- Event Card 2 -->
+                <div class="card">
+                    <img src="assets/event2.jpg" alt="Tech Meetup">
+                    <div class="card-content">
+                        <h3>Tech Innovation Meetup</h3>
+                        <p><strong>Date:</strong> Jan 15, 2026</p>
+                        <p>AI, Blockchain, and Startup Networking</p>
+                    </div>
+                </div>
+                
+                <!-- Event Card 3 -->
+                <div class="card">
+                    <img src="assets/event3.jpg" alt="Cultural Night">
+                    <div class="card-content">
+                        <h3>Cultural Night</h3>
+                        <p><strong>Date:</strong> Feb 10, 2026</p>
+                        <p>Traditional dance and cuisine from Karnataka</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer - Common to all pages -->
+    <footer class="footer">
+        <p>&copy; 2025 Event Site. All rights reserved. | Bengaluru, KA</p>
+    </footer>
+</body>
+</html>

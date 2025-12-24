@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Event Site</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <!-- Header with Navigation - Common to all pages -->
+   <header class="header">
+  <div class="nav-container">
+    
+    <div class="logo">
+      <img src="assets/college_logo.jpg" alt="Logo" />
+    </div>
+
+    <!-- Hamburger Button -->
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+  </div>
+</header>
+
+
+    <!-- Hero Banner - Gallery specific -->
+    <section class="hero">
+        <div>
+            <h1>Photo Gallery</h1>
+            <p>Memories from our past events</p>
+        </div>
+    </section>
+
+    <!-- Main Content - Gallery Grid -->
+    <main class="container">
+        <section class="section">
+            <h2>Past Events</h2>
+            <div class="cards-grid">
+                <!-- Gallery Image 1 -->
+                <div class="card">
+                    <img src="assets/gallery1.jpg" alt="Festival Crowd">
+                    <div class="card-content">
+                        <h3>2025 Festival Highlights</h3>
+                        <p>Vibrant celebrations with thousands of attendees</p>
+                    </div>
+                </div>
+                
+                <!-- Gallery Image 2 -->
+                <div class="card">
+                    <img src="assets/gallery2.jpg" alt="Stage Performance">
+                    <div class="card-content">
+                        <h3>Live Performances</h3>
+                        <p>Unforgettable music moments captured</p>
+                    </div>
+                </div>
+                
+                <!-- Gallery Image 3 -->
+                <div class="card">
+                    <img src="assets/gallery3.jpg" alt="Food Stalls">
+                    <div class="card-content">
+                        <h3>Culinary Delights</h3>
+                        <p>Local cuisine that delighted food lovers</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer - Common to all pages -->
+    <footer class="footer">
+        <p>&copy; 2025 Event Site. All rights reserved. | Bengaluru, KA</p>
+    </footer>
+</body>
+</html>
