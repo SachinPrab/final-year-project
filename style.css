@@ -101,7 +101,7 @@ body {
 
 /* ================= HERO ================= */
 .hero {
-    background: url('../assets/hero_image.jpg') center/cover no-repeat;
+    background: url('/assets/hero_image.jpg') center/cover no-repeat;
     height: 60vh;
     display: flex;
     align-items: center;

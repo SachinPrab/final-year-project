@@ -1,74 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gallery - Event Site</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <script src="main.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery - Event Site</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
 </head>
 <body>
-    <!-- Header with Navigation - Common to all pages -->
-   <header class="header">
-  <div class="nav-container">
-    
-    <div class="logo">
-      <img src="assets/college_logo.jpg" alt="Logo" />
+
+  <!-- Header -->
+  <header class="header">
+    <div class="nav-container">
+      <div class="logo">
+        <img src="assets/college_logo.jpg" alt="Logo">
+      </div>
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <!-- Dark/Light toggle button -->
+      <button class="theme-toggle" id="themeToggle">🌙</button>
     </div>
-<button id="themeToggle" class="theme-toggle">🌙</button>
+  </header>
 
-    <!-- Hamburger Button -->
-    <div class="hamburger" id="hamburger">
-      <span></span>
-      <span></span>
-      <span></span>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div>
+      <h1>Photo Gallery</h1>
+      <p>Memories from our past events</p>
     </div>
+  </section>
 
-    <ul class="nav-links" id="nav-links">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="events.html">Events</a></li>
-      <li><a href="gallery.html">Gallery</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
+  <!-- Gallery Section -->
+  <main class="container">
+    <section class="section">
+      <h2>Past Events</h2>
 
-  </div>
-</header>
+      <!-- Gallery Carousel -->
+      <div class="carousel">
+        <button class="carousel-btn prev" id="galleryPrevBtn">&#10094;</button>
 
+        <img id="galleryCarouselImage" src="assets/gallery1.jpg" alt="Gallery Image">
 
-    <!-- Hero Banner - Gallery specific -->
-    <section class="hero">
-        <div>
-            <h1>Photo Gallery</h1>
-            <p>Memories from our past events</p>
+        <div class="carousel-caption" id="galleryCaption">
+          <h3>Gallery Image 1</h3>
+          <p>Memories from Event 1</p>
         </div>
+
+        <button class="carousel-btn next" id="galleryNextBtn">&#10095;</button>
+      </div>
+
     </section>
+  </main>
 
-    <!-- Main Content - Gallery Grid -->
-<section class="section">
-    <h2>Past Events</h2>
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 Event Site. All rights reserved. | Bengaluru, KA</p>
+  </footer>
 
-    <!-- Image Carousel -->
-    <div class="carousel">
-        <button class="carousel-btn prev" id="prevBtn">&#10094;</button>
-
-        <img 
-            id="carouselImage" 
-            src="assets/gallery1.jpg" 
-            alt="Gallery Image"
-        >
-
-        <button class="carousel-btn next" id="nextBtn">&#10095;</button>
-    </div>
-
-    <!-- Existing Gallery Grid -->
-    <div class="cards-grid">
-
-
-    <!-- Footer - Common to all pages -->
-    <footer class="footer">
-        <p>&copy; 2025 Event Site. All rights reserved. | Bengaluru, KA</p>
-    </footer>
 </body>
 </html>
